@@ -24,6 +24,10 @@ public class Question
         this.correctAnswer = correctAnswer;
     }
 
+    /**
+     * This returns the trivia question
+     * @return the trivia question
+     */
     public String getQuestion()
     {
         return question;
